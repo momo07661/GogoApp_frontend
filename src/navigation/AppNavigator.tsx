@@ -16,9 +16,9 @@ const AppNavigator = () => {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Journey" component={JourneyScreen} />
-        <Stack.Screen name="CreateJourney" component={CreateJourneyScreen} />
-        <Stack.Screen name="AIChat" component={AIChatScreen} />
+        {/*<Stack.Screen name="Journey" component={JourneyScreen} />*/}
+        {/*<Stack.Screen name="CreateJourney" component={CreateJourneyScreen} />*/}
+        {/*<Stack.Screen name="AIChat" component={AIChatScreen} />*/}
       </Stack.Navigator>
     </NavigationContainer>
   );
